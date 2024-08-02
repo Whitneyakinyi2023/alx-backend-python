@@ -4,6 +4,7 @@ from typing import List, Tuple
 
 
 def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
+    """Relevant annotatation"""
     zoomed_in: List[int] = [
         item for item in lst
         for _ in range(factor)
